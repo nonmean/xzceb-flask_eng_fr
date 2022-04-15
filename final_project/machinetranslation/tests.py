@@ -19,4 +19,5 @@ class TestTranslatorModule(unittest.TestCase):
         self.assertNotEqual(english_to_french("Bye"), "Bonjour")
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
